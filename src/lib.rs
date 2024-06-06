@@ -15,7 +15,7 @@ pub trait Contract {
         &self,
         test_params: MultiValueEncoded<
             MultiValue3<
-                TokenIdentifier<Self::Api>,
+                ManagedBuffer<Self::Api>,
                 ManagedBuffer<Self::Api>,
                 ManagedBuffer<Self::Api>,
             >,
@@ -28,7 +28,7 @@ pub trait Contract {
         &self,
         test_params: MultiValueEncoded<
             MultiValue3<
-                TokenIdentifier<Self::Api>,
+                ManagedBuffer<Self::Api>,
                 ManagedBuffer<Self::Api>,
                 ManagedBuffer<Self::Api>,
             >,
