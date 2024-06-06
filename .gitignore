@@ -1,0 +1,5 @@
+/node_modules/
+/output/*
+!/output/contract.wasm
+target/
+.DS_store
